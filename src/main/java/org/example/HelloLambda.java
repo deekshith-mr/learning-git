@@ -12,6 +12,7 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         System.out.println("This is test");
         System.out.println("This is used to to test the git reset");
         System.out.println("This is used to to test the git reset -> second time");
+        System.out.println("This commit is used to checked for the login2");
         return "Hello from Lambda! Input = " + input;
     }
 }
