@@ -20,6 +20,8 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         System.out.println("Use the same PR ");
 
         System.out.println("This is used to create the new PR ");
+        System.out.println("This is used to create the new PR 3");
+        System.out.println("This is used to create the new PR 3");
         return "Hello from Lambda! Input = " + input;
     }
 }
