@@ -18,6 +18,7 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
 
         System.out.println("This commit is used to checked for feature/login3-pr");
         System.out.println("Use the same PR ");
+        System.out.println("This is the PR 1");
         return "Hello from Lambda! Input = " + input;
     }
 }
