@@ -3,6 +3,7 @@ package org.example;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
+import javax.xml.stream.events.StartElement;
 import java.util.Map;
 
 public class HelloLambda implements RequestHandler<Map<String, Object>, String> {
@@ -23,6 +24,7 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         System.out.println("This is used to create the new PR 3");
         System.out.println("This is used to create the new PR 3");
         System.out.println("This is used test the pr dood");
+        System.out.println("This is used for stash");
         return "Hello from Lambda! Input = " + input;
     }
 }
