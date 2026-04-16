@@ -31,6 +31,8 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         if(4 == 4)
         {
             System.out.println("THis is just to see the error");
+        }else{
+            System.out.println("This is else block of code");
         }
         return "Hello from Lambda! Input = " + input;
     }
