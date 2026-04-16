@@ -25,6 +25,7 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         System.out.println("This is used to create the new PR 3");
         System.out.println("This is used test the pr dood");
         System.out.println("This is used for stash");
+        System.out.println("This string is used to test the the reset functionality 2");
         return "Hello from Lambda! Input = " + input;
     }
 }
