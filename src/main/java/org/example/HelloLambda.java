@@ -33,6 +33,7 @@ public class HelloLambda implements RequestHandler<Map<String, Object>, String> 
         System.out.println("I will revert this");
         System.out.println("This is used to test the git reset soft");
         System.out.println("This is used to test the git reset hard");
+        System.out.println("This is used to test the git reset soft");
         if(4 == 4)
         {
             System.out.println("THis is just to see the error");
