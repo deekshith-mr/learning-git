@@ -26,6 +26,7 @@ build/
 .settings
 .springBeans
 .sts4-cache
+.idea/misc.xml
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
